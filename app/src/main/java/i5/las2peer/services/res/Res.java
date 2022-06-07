@@ -71,9 +71,9 @@ public class Res extends RESTService {
 
   @Api
   @SwaggerDefinition(
-      info = @Info(title = "205", version = "$Metadata_Version$",
-          description = "$Metadata_Description$",
-          termsOfService = "$Metadata_Terms$",
+      info = @Info(title = "205", version = "0.0.0",
+          description = "",
+          termsOfService = "",
           contact = @Contact(name = "", email = "CAEAddress@gmail.com") ,
           license = @License(name = "BSD",
               url = "https://github.com/GHProjectsTest/microservice-205/blob/master/LICENSE.txt") ) )
