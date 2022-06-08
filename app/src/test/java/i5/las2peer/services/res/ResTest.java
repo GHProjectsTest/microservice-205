@@ -121,9 +121,9 @@ public class ResTest {
       ClientResponse result = c.sendRequest("GET", mainPath + "/test2", """
 """);
     
-      Assert.assertNotEquals("[734284]", result.getHttpCode(), 200);
-
       Assert.assertEquals("[428177]", result.getHttpCode(), 200);
+
+      Assert.assertNotEquals("[734284]", result.getHttpCode(), 200);
 
       System.out.println("Result of 'test$HTTP_Method_Name$': " + result.getResponse().trim());
     } catch (Exception e) {
