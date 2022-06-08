@@ -118,7 +118,7 @@ public class ResTest {
         
     try {
       c.setLogin(AnonymousAgentImpl.IDENTIFIER, "");
-      ClientResponse result = c.sendRequest("GET", mainPath + "/test", """
+      ClientResponse result = c.sendRequest("GET", mainPath + "/test2", """
 """);
     
       Assert.assertNotEquals("[734284]", result.getHttpCode(), 200);
